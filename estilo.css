@@ -3,6 +3,10 @@
     font-size: 16px;
 }
 
+html {
+    background-color: #95a5a6;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -14,5 +18,39 @@ body {
 
 form {
     width: 350px;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px #333;
+    padding: 1px;
+}
+
+fieldset {
+    border: none;
+    padding: 1px;
+}
+
+input, label {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+label {
+    margin-bottom: .25em;
+}
+
+input {
+    padding: .75em;
+    border: 5px;
+    margin-bottom: 1.5em;
+    border: 1px solid #bbb;
+    font-size: 16px;
+}
+
+legend {
     padding: 1em;
+    text-align: center;
+    font-weight: bold;
+    color: #454e4f;
+    margin-bottom: .5em;
 }
