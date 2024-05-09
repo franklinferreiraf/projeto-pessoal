@@ -11,3 +11,8 @@ body {
     min-height: 100vh;
     margin: 0;
 }
+
+form {
+    width: 350px;
+    padding: 1em;
+}
